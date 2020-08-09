@@ -1,4 +1,4 @@
 * [Home](/)
-* [Send SMS](send.md)
-* [Credits](credit.md)
-* [Reports](report.md)
+* [Credits](/credit.md)
+* [Send SMS](/send.md)
+* [Reports](/report.md)
