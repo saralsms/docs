@@ -16,6 +16,7 @@ https://cloudapi.saralsms.com/v1
 ```
 
 ### Credits
+Checking your account credits in SaralSMS.
 Check [Reports] page for a technical documentation and examples.
 
 ### Send SMS
@@ -23,6 +24,7 @@ We use direct local operator connections and smart routing to deliver messages.
 Check [Send SMS] page for a technical documentation and examples.
 
 ### Reports
+Get the historical messages reports including networks, charges and status.
 Check [Reports] page for a technical documentation and examples.
 
 [Credits]: /credit
