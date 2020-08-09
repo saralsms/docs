@@ -10,6 +10,12 @@ Use an HTTP `POST` method.
 ### Content Body
 It is recommended to send content body in `application/json` format. We also support `application/x-www-form-urlencoded` format as fallback.
 
+### Parameters
+| Param 	| Values                                  	| Required 	| Description                                 	|
+|:------	|:----------------------------------------	|:---------	|:--------------------------------------------	|
+| to    	| 9851xxx123, 9851xxx124, 9851xxx125, ... 	| Y        	| One or multiple numbers separated by comma. 	|
+| text  	| This is the test message from API.      	| Y        	| The text message to be delivered.           	|
+
 ### cURL Request / JSON
 ```bash
 curl --request POST \
