@@ -14,3 +14,17 @@ We provided high performance and scalable API endpoint for sending and receiving
 ```text
 https://cloudapi.saralsms.com/v1
 ```
+
+### Credits
+Check [Reports] page for a technical documentation and examples.
+
+### Send SMS
+We use direct local operator connections and smart routing to deliver messages.
+Check [Send SMS] page for a technical documentation and examples.
+
+### Reports
+Check [Reports] page for a technical documentation and examples.
+
+[Credits]: /credit
+[Send SMS]: /send
+[Reports]: /report
