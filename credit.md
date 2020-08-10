@@ -10,14 +10,14 @@ Use an HTTP `GET` method.
 ### cURL Request
 ```bash
 curl --request GET \
-  --url https://cloudapi.saralsms.com/v1/credit \
+  --url https://cloudapi.saralsms.com/v1/credits \
   --header 'X-Auth-Token: fe3b17a2f645eff...e7eb71c8a3bfd27ed'
 ```
 
 ### Sample Response
 ```json
 {
-  "credit": 6584,
+  "credits": 6584,
   "total_sent": 3416
 }
 ```

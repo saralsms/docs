@@ -10,7 +10,7 @@ Use an HTTP `GET` method.
 ### cURL Request
 ```bash
 curl --request GET \
-  --url 'https://cloudapi.saralsms.com/v1/report' \
+  --url 'https://cloudapi.saralsms.com/v1/reports' \
   --header 'x-auth-token: fe3b17a2f645eff...e7eb71c8a3bfd27ed'
 ```
 The API respond with first page by default. Optionally `page` parameter can be passed to fetch other pages. Example: `/report?page=12` for a 12th page.
@@ -18,7 +18,7 @@ The API respond with first page by default. Optionally `page` parameter can be p
 ### Sample Response
 ```json
 {
-  "total_page": 126,
+  "pages": 126,
   "data": [
     {
       "id": 56480058,
