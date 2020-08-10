@@ -10,23 +10,23 @@ SaralSMS support all mobile phone operators in Nepal.
 1. SmartCell
 
 ### API Endpoint
-We provided high performance and scalable API endpoint for sending and receiving messages quickly and reliably.
+We provide high performance and scalable API endpoint for sending messages quickly and reliably.
 ```text
 https://cloudapi.saralsms.com/v1
 ```
 
 ### Credits
 Checking your account credits in SaralSMS.
-Check [Reports] page for a technical documentation and examples.
+Check [Credits] page for a technical documentation.
 
 ### Send SMS
 We use direct local operator connections and smart routing to deliver messages.
-Check [Send SMS] page for a technical documentation and examples.
+Check [Send SMS] page for a technical documentation.
 
 ### Reports
 Get the historical messages reports including networks, charges and status.
-Check [Reports] page for a technical documentation and examples.
+Check [Reports] page for a technical documentation.
 
-[Credits]: /credit
-[Send SMS]: /send
-[Reports]: /report
+[Credits]: /credit.md
+[Send SMS]: /send.md
+[Reports]: /report.md
