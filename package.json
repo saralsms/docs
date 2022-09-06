@@ -29,6 +29,9 @@
     "dev": "vite",
     "build": "vite build"
   },
+  "dependencies": {
+    "docsify": "^4.12.2"
+  },
   "devDependencies": {
     "vite": "^3.1.0",
     "vite-plugin-html": "^3.2.0"
