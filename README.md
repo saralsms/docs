@@ -27,6 +27,6 @@ Check [Send SMS] page for a technical documentation.
 Get the historical messages reports including networks, charges and status.
 Check [Reports] page for a technical documentation.
 
-[Credits]: /credit.md
-[Send SMS]: /send.md
-[Reports]: /report.md
+[Credits]: /public/credit.md
+[Send SMS]: /public/send.md
+[Reports]: /public/report.md
