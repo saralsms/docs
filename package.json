@@ -1,0 +1,39 @@
+{
+  "name": "@saralsms/docs",
+  "description": "Technical documentation for SaralSMS API integration.",
+  "version": "1.0.1",
+  "homepage": "https://docs.saralsms.com",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Madan Sapkota",
+    "email": "contact@madansapkota.com",
+    "url": "https://madansapkota.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saralsms/docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saralsms/docs/issues"
+  },
+  "prettier": {
+    "bracketSameLine": true,
+    "printWidth": 120,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0",
+    "vite-plugin-html": "^3.2.0"
+  },
+  "optionalDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
