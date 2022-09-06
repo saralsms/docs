@@ -1,12 +1,12 @@
 ## ignore vendor directories
-/vendor
-/node_modules
+/.yarn/
+/node_modules/
+/vendor/
 
 ## ignore build directories
-/dist/
 /build/
 /bundle/
-/output/
+/dist/
 
 ### JetBrains template
 /.idea/*
@@ -17,17 +17,17 @@
 /.vscode/
 
 ### NetBeans template
-/nbproject/
+/.nb-gradle/
 /nbbuild/
 /nbdist/
-/.nb-gradle/
+/nbproject/
 
 ### Windows template
+*.lnk
 Thumbs.db
+[Dd]esktop.ini
 ehthumbs.db
 ehthumbs_vista.db
-[Dd]esktop.ini
-*.lnk
 
 ### macOS template
 .DS_Store
@@ -35,25 +35,24 @@ ehthumbs_vista.db
 
 ### Linux template
 *~
-.fuse_hidden*
-.directory
 .Trash-*
+.directory
+.fuse_hidden*
 .nfs*
 
-### editor files
-*.suo
-*.ntvs*
+### Editor files
 *.njsproj
+*.ntvs*
 *.sln
+*.suo
 *.sw?
 
-### Composer
-composer.lock
-composer.phar
-package-lock.json
+### Lock Files
+yarn.lock
 
 ### Generated files
-.env
 *.cache
-*.log
 *.key
+*.log
+*.zip
+.env
